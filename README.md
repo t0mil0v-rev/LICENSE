@@ -1,17 +1,42 @@
-# Master Proprietary License
+# DoubleLuc Software Licenses & Terms
 
-**Author / Licensor:** DoubleLuc ([@t0mil0v-rev](https://github.com/t0mil0v-rev))
+Welcome. This repository hosts the official licensing framework utilized across projects authored and maintained by **DoubleLuc** ([@t0mil0v-rev](https://github.com/t0mil0v-rev)).
 
-This repository contains the official, legally binding **Master Proprietary & Confidential License and Anti-Infringement Agreement** governing all software, codebases, libraries, modules, binaries, reverse-engineering projects, and digital assets developed or maintained by DoubleLuc, unless explicitly designated otherwise under an alternative permissive license.
+> [!NOTE]
+> **Not all repositories or projects are covered by a custom or proprietary license.**  
+> Each project explicitly references which license tier applies to it. If a project does not contain a specific license or references this repository, please consult the tiers below.
 
 ---
 
-### Key Summary:
+## License Tiers Overview
 
-- **Strictly Proprietary & Non-Public:** No permission is granted for copying, redistributing, mirroring, or forking.
-- **Anti-Paste & Anti-Leak Covenant:** Any extraction of routines, variables, algorithms, or snippets into external tools, cheats, bots, or codebases is strictly prohibited.
-- **Trade Secrets Protection:** Core mechanics and implementations are classified as confidential trade secrets under the DTSA, UTSA, and international directives.
-- **Liquidated & Statutory Damages:** Violations trigger contractual liquidated damages of $100,000+ USD, with automatic cascading fallback to statutory copyright compensation (including Article 1301 of the Civil Code of the Russian Federation and 17 U.S.C. § 504), full revenue disgorgement, and prosecution under applicable criminal statutes (including Articles 146, 272, 273 of the Criminal Code of the RF).
-- **Personal Liability:** Operating under aliases, handles, or corporate facades does not shield violators from personal and joint liability.
+| Tier | File | Description | Commercial Use | Redistribution | Modding / Study |
+|:---|:---|:---|:---:|:---:|:---:|
+| **Tier 1** | [**LICENSE-1**](LICENSE-1) | **Strict Proprietary & Confidential**<br>Anti-Paste, Closed-Source, Trade Secrets, Liquidated Damages ($100k+), Statutory Fallback (ст. 1301 ГК РФ, 17 U.S.C. § 504). | ❌ Forbidden | ❌ Forbidden | ❌ Forbidden |
+| **Tier 2** | [**LICENSE-2**](LICENSE-2) | **Fair-Use & Non-Commercial**<br>Source-Available for personal experiments, research, and non-profit studying. Mandatory attribution. | ❌ Forbidden | ⚠️ Non-Commercial only | ✅ Allowed |
+| **Tier 3** | [**LICENSE-3**](LICENSE-3) | **Permissive MIT-Style**<br>Free open-source license. Permissive use, distribution, and modifications with copyright notice. | ✅ Allowed | ✅ Allowed | ✅ Allowed |
 
-See the full legal terms in [LICENSE](LICENSE).
+---
+
+### Detailed Summaries:
+
+### 1. [LICENSE-1](LICENSE-1) — Proprietary & Anti-Paste Agreement
+- **Target:** Sensitive projects, internal utilities, proprietary algorithms, and closed-source tools (e.g. `fb-eaa-token`).
+- **Core Provisions:**
+  - Absolute prohibition on public distribution, forking, or pasting into cheats/bots.
+  - Classification as Trade Secrets (DTSA, UTSA, EU Directive 2016/943).
+  - Contractual liquidated damages ($100,000 USD) with cascading statutory copyright recovery (ст. 1301 ГК РФ до 5 000 000 руб., 17 U.S.C. § 504 до $150 000).
+  - Formal criminal prosecution notice (ст. 146, 272, 273 УК РФ).
+  - Personal liability piercing online aliases and pseudonyms.
+
+### 2. [LICENSE-2](LICENSE-2) — Non-Commercial & Educational (Source-Available)
+- **Target:** Public showcase projects, research prototypes, and community tools meant to be viewed and studied without being ripped off or commercialized.
+- **Core Provisions:**
+  - Free to view, compile, study, and run for personal, educational, and research purposes.
+  - Strict prohibition on selling, subscription models, paid integration, or monetization.
+  - Strict attribution requirement (author credits to DoubleLuc must remain intact).
+
+### 3. [LICENSE-3](LICENSE-3) — Permissive Open Source (MIT)
+- **Target:** Open-source utilities, public libraries, template repositories, and tools intended for wide community adoption.
+- **Core Provisions:**
+  - Standard permissive MIT terms. Commercial and private use allowed as long as the copyright header is preserved.
